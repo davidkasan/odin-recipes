@@ -1,0 +1,53 @@
+/* MY CSS STYLES */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    font-size: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.copyright {
+    font-size: 0.75rem;
+}
+
+p.copyright a {
+    text-decoration: none;
+    color: #941818;
+}
+
+p.copyright a:hover {
+    text-decoration: underline;
+    color: #005f73;
+}
+
+img {
+    height: auto;
+    width: 450px;
+}
+
+.ingredients {
+    background-color: #ddd;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+a.back {
+    border: 1px solid #970000;
+    background-color: #970000;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+a.back:hover {
+    text-decoration: none;
+    background-color: #973c00;
+    border: 1px solid #973c00;
+    border-radius: 20px;
+    transition: border-radius 0.5s;
+}
